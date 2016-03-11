@@ -4,7 +4,7 @@ import java.io.Serializable;
 
 public class ImageItem implements Serializable {
     String title;
-    String image;
+    String imageURL;
 
     public ImageItem(){}
 
@@ -13,7 +13,7 @@ public class ImageItem implements Serializable {
     }
 
     public void setImage(String image){
-        this.image = image;
+        this.imageURL = image;
     }
 
     public String getTitle(){
@@ -21,6 +21,6 @@ public class ImageItem implements Serializable {
     }
 
     public String getImage(){
-        return image;
+        return imageURL;
     }
 }

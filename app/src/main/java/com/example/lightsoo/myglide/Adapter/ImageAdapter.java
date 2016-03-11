@@ -48,9 +48,6 @@ public class ImageAdapter extends BaseAdapter{
         return -1;
     }
 
-
-
-
     @Override
     public int getCount() {
         return items.size();
